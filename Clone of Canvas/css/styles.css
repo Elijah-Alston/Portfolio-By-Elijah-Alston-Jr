@@ -1,0 +1,164 @@
+
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+
+/*Start of HP*/
+body {
+    background-color: #e6ded4;
+    margin-top: 50px;
+  }
+
+
+  .HP-div{
+    display: block;
+align-content: center;
+
+  }
+
+  .HPH{
+
+    color: rgb(145, 145, 145);
+  }
+
+  .HP-links{
+
+    
+    display: block;
+    width: 325px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom:5px;
+
+  }
+
+  .HPUL{
+    list-style: none;
+
+  }
+
+  .HPLI{
+
+    font-size: 10px;
+    position: relative;
+    display: inline;
+    padding: 5px;
+   
+    
+  }
+
+  .HP-a{
+    color: rgb(145, 145, 145); 
+  }
+
+  .HP-button{
+
+    padding: 7px;
+    border-radius: 5%;
+    width: 100px;
+    color: rgb(145, 145, 145);
+    background-color: transparent;
+    border: solid 1px rgb(145, 145, 145);
+    float: right;
+    position: relative;
+    
+    
+
+  }
+
+  .HP-button:hover{
+    background-color: #d8d6d4;
+  }
+
+  .HP-login{
+    
+    width: 325px;
+    height:200px;
+   
+   margin: auto;
+   margin-top: 20px;
+   
+
+  }
+
+  .HP-textlogin{
+
+    width: 99%;
+    height: 30px;
+    border-color: transparent;
+
+  }
+
+  .HPH{
+padding-bottom: 10px;
+padding-top:10px;
+font-size: 15px;
+
+
+  }
+
+  .HP-image{
+
+    display: block;
+    width: 325px;
+    margin: auto;
+
+  }
+  .HP-lastlink{
+
+    display: block;
+    margin:auto;
+    width: 100px;
+    font-size: 15px;
+    font-weight:bold;
+    text-decoration: none;
+
+  }
+
+  .HP-label{
+    margin-top:20px;
+    display: inline-block;
+    color: rgb(145, 145, 145);
+    font-size: 15px;
+  }
+
+  #staysignedin{
+
+
+display: inline-block;
+
+  }
+
+
+  .HP-fp{
+
+display: inline-block;
+padding-top: 20px;
+    
+
+  }
+
+
+
+  footer{
+
+    padding-top:10px;
+
+  }
+
+  /*End of Home page*/
