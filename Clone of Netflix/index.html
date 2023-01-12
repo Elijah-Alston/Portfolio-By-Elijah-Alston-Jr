@@ -4,40 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Netflix - Watch TV Shows</title>
 </head>
 <body>
 
 <div class="HP-topbar">
 
-<h2 >NEW!</h2>
-<h2>Plans now start at </h2>
-<h2>$6.99</h2>
-<a src="index.html">Learn More ></a>
+<h2 class="Topbar-new">NEW!</h2>
+<h2 class="Topbar-plans">Plans now start at </h2>
+<h2 class="Topbar-planscost">$6.99</h2>
+<a href="index.html" class="Topbar-a">Learn More ></a>
 
 </div>
 
-<div class="HP-heroimage">
+<div class="HP-Heroimagediv">
+  
+    <img class="HP-heroimage" src="images/Heroimage.jpg">
 
-<img src="images/Netflixlogo">
+<div class="Heroimage-wrapper">
 
-<label for="lang"> English </label>
 
-<select name="lang" id="lang">
-  <option value="english">English</option>
-  <option value="espanol">Spanish</option>
+
+    <img src="images/Netflixlogo.png" class="Heroimage-netflixlogo">
+
+
+<div class="Heroimage-topdiv">
+
+   
+
+<select name="lang" id="lang" class="Topdiv-select">
+  <option value="english" class="Topdiv-option">English</option>
+  <option value="espanol" class="Topdiv-option">Spanish</option>
 </select>
 
 
-<h1>Unlimitted movies, TV <br> shows, and more.</h1>
+<button class="Topdiv-button">Sign In</button>
 
-<h2>Watch anywhere. Cancel anytime</h2>
+</div>
 
-<p> Ready to watch? Enter your email to create or restart your membership.</p>
+<div class="Heroimage-bottomdiv">
 
-<input type="text" placeholder="Email address">
-<button type="submit">Get Started ></button>
+<h1 class="Heroimage-h1">Unlimitted movies, TV <br> shows, and more.</h1>
 
+<h2 class="Heroimage-h2">Watch anywhere. Cancel anytime.</h2>
+
+<p class="Heroimage-p"> Ready to watch? Enter your email to create or restart your membership.</p>
+
+<input type="text" placeholder="Email address" class="HP-emailinput">
+<button type="submit" class="HP-emailbutton">Get Started ></button>
+
+</div>
+</div>
 </div>
 
 <div class="HP-grid">
@@ -45,7 +63,7 @@
 
     <div class="HP-griditem1">
 
-        <h1>Enjoy on your TV.</h1>
+        <h1 >Enjoy on your TV.</h1>
         <h2> Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>
 
         <img src="images/">
@@ -78,7 +96,8 @@
 
 
         <h1> Download your<br> shows to watch offline.</h1>
-        <h2> Available on all plans except Basic with ads</h2>
+        <h2> Available on all plans except Basic with ads.</h2>
+       
         <img src="images/">
 
 
@@ -88,11 +107,93 @@
 </div>
 
 
+<div class="HP-faqs">
+
+<h1>Frequently Asked Questions</h1>
 
 
+<p> Ready to watch? Enter your email to create or restart your membership.</p>
+<input type="text" placeholder="Email address" class="HP-emailinput">
+<button type="submit" class="HP-emailbutton">Get Started ></button>
 
+</div>
 
-
-    
+  
 </body>
+
+
+<footer>
+
+<p class="Footer-p">Questions? Call</p>
+
+<div class="Footer-links">
+
+    <div class="Footer-link1">
+
+    <ul class="Footer-ul1">
+        <li><a href="index.html">FAQ</a></li>
+        <li><a href="index.html">Investor Relations</a></li>
+        <li><a href="index.html">Ways to Watch</a></li>
+        <li><a href="index.html">Corporate information</a></li>
+        <li><a href="index.html">Only on Netflix</a></li>
+
+
+    </ul>
+    </div>
+
+    <div class="Footer-link2">
+
+        <ul class="Footer-ul1">
+            <li><a href="index.html">Help Center</a></li>
+            <li><a href="index.html">Jobs</a></li>
+            <li><a href="index.html">Terms of use</a></li>
+            <li><a href="index.html">Contact Us</a></li>
+            <li><a href="index.html">Do Not Sell or Share My Personal Information</a></li>
+    
+    
+        </ul>  
+        </div>
+
+    <div class="Footer-link3">
+
+        <ul class="Footer-ul1">
+            <li><a href="index.html">Account</a></li>
+            <li><a href="index.html">Redeem Gift Cards</a></li>
+            <li><a href="index.html">Privacy</a></li>
+            <li><a href="index.html">Speed Test</a></li>
+            
+    
+        </ul>
+    </div>
+
+
+    <div class="Footer-link4">
+
+        <ul class="Footer-ul1">
+            <li><a href="index.html">Media Center</a></li>
+            <li><a href="index.html">Buy Gift Cards</a></li>
+            <li><a href="index.html">Cookie Prefernces</a></li>
+            <li><a href="index.html">Legal Notices</a></li>
+           
+    
+        </ul>
+        
+    </div>
+
+   
+
+
+</div>
+
+<label for="lang"> English </label>
+
+<select name="lang" id="lang">
+    <option value="english">English</option>
+    <option value="espanol">Spanish</option>
+  </select>
+
+
+</footer>
+
+
 </html>

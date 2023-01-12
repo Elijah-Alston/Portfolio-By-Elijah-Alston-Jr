@@ -15,3 +15,215 @@ abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
 table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
+
+
+/* Start of Home Page*/
+
+
+body{
+
+background-color: black;
+color: green;
+}
+/* Start of Top Bar*/
+
+.HP-topbar{
+
+background-color: white;
+min-height: 4em;
+display: block;
+text-align: center;
+width: 100%;
+
+
+}
+
+.Topbar-new{
+
+color: white;
+background-color: #e50914;
+border-radius: 8px;
+display: inline-block;
+padding: 3px;
+font-size: 15px;
+margin-top: 1.5em;
+margin-right: 5px;
+
+
+}
+
+.Topbar-plans{
+
+    font-size: 20px;
+    display: inline;
+    color: black;
+}
+
+.Topbar-planscost{
+
+font-size: 25px;
+display: inline;
+color: black;
+
+}
+
+.Topbar-a{
+
+color: blue;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+display: inline-block;
+margin-left: 80px;
+
+}
+
+
+/* End of Top Bar*/
+
+/*start of Hero Image*/
+
+.HP-heroimagediv{
+
+position: absolute;
+
+}
+
+.HP-heroimage{
+
+width: 100%;
+
+}
+
+.Heroimage-netflixlogo{
+
+    
+   width: 160px;
+   
+    position: absolute;
+    
+   
+}
+
+.Heroimage-wrapper{
+
+position: absolute;
+top: 65px;
+
+}
+
+.Heroimage-topdiv{
+
+margin-top: 25px;
+
+margin-left: 700px
+
+
+}
+
+
+.Topdiv-select{
+
+height: 30px;
+padding: 5px;
+background-color: transparent;
+color: white;
+border-color: white;
+font-size: 15px;
+margin-right: 60px;
+
+
+
+}
+
+
+.Topdiv-button{
+
+color: white;
+background-color: #e50914;
+border-radius: 5px;
+border: #e50914;
+padding: 8px;
+width: 80px;
+text-align: center;
+font-size: 15px;
+
+
+
+
+}
+
+
+
+
+.Heroimage-bottomdiv{
+
+
+margin: auto;
+text-align: center;
+margin-top: 150px
+
+}
+
+
+.Heroimage-h1{
+
+font-size: 50px;
+color: white;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+padding-bottom: 30px;
+
+
+}
+
+
+.Heroimage-h2{
+
+color: white;
+font-size: 25px;
+font-family: Helvetica, sans-serif;
+
+    
+}
+
+.Heroimage-p{
+
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+
+
+
+    
+}
+
+
+.HP-emailinput{
+
+
+  padding: 15px;  
+    
+   width: 400px
+
+
+}
+
+.HP-emailbutton{
+
+background-color:#e50914;
+color: white;
+
+width: 200px;
+padding: 15px;
+font-size: 25px;
+
+
+}
+
+/* End of Hero Image */
+
+
+
+
+/* end of Home Page*/
