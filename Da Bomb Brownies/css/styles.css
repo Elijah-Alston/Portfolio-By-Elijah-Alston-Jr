@@ -1,0 +1,187 @@
+tml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.banner1{
+	background-color: #643c3a;
+	height: 525px;
+	width: max;
+	
+}
+.logo{
+display: block;
+position: relative;
+left: 375px;
+}
+
+
+nav ul li {
+padding: 10px;
+color: white;
+display: inline-block;
+
+ 
+}
+nav ul {
+
+list-style-type: none;
+margin: 0;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 5px;
+padding-right: 5px;
+overflow: hidden;
+background-color: #643c3a;
+text-align: center;	
+}
+
+h2.B1{
+color: white;
+text-align: center;
+font-family: helvetica;
+font-size: 26px;
+}
+h2 a.B1{
+	color: white;
+	
+}
+
+
+p.B1{
+color: white;
+text-align: center;
+font-weight: bold;
+font-size: 20px;	
+}
+
+.BNB{
+background-color: white;
+  border: none;
+  color: #643c3a;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+	transition-duration: 0.4s;
+	margin-right: 35px;
+position: relative;
+left: 600px;
+top: -42px;
+}
+
+.BNB:hover{
+color: #643c3a;
+background-color: #9b857d;	
+}
+
+.BNB2{
+background-color: white;
+  border: none;
+  color: #643c3a;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 35px;
+  position: relative;
+  top: -10px;
+  left: 1032px;
+
+}
+
+.BNB2:hover{
+color: #643c3a;
+background-color: #9b857d;	
+}
+
+.RB{
+background-color: #7e430b;
+color: white;
+padding: 20px 40px;
+border-radius: 12px;
+position: sticky;
+
+}
+
+.RB{
+	
+	position: -webkit-sticky;
+	position: absolute;
+	
+	font-size: 20px;
+}
+
+/* list of brownies*/
+.SL{
+background-color: gray;
+width: max;
+height:300px;	
+}
+
+.PP{
+	text-align: center;
+	display: block;
+	position: relative;
+	
+	
+}
+
+.PH{
+font-weight: bold;
+font-size: 90px;
+color: #7B3B2A;
+
+}	
+
+.PA{
+	color: #7B3B2A;
+	display: block;
+	position: relative;
+	bottom: 600px;
+	left: -250px;
+	
+	}
+
+
+
+
+
+.Contact{
+	background-color: blue;
+	height: 350px;
+}
+
+
+
+.Map{
+	display: block;
+	background-color: yellow;
+	height: 300px;
+}
+
+footer{
+	margin-left: 0;
+	margin-right: 0;
+	background-color: black;
+	
+
+}
