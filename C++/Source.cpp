@@ -14,7 +14,7 @@ int main()
 {
 	cout << "*****************************************************************"<< endl;
 	cout << "Welcome to Race Results Program" << endl;
-	cout << "You Asked to Enter the Three Racer’s Names" << endl;
+	cout << "You Asked to Enter the Three Racerï¿½s Names" << endl;
 	cout << "and Their Associated Race Time." << endl;
 	cout << "Program Developed by : Elijah alston jr" << endl;
 	cout << "*****************************************************************" << endl;
@@ -55,7 +55,7 @@ void welcome()
 {
 	cout << "	*****************************************************************";
 	cout << "Welcome to Race Results Program";
-	cout << "You Asked to Enter the Three Racer’s Names";
+	cout << "You Asked to Enter the Three Racerï¿½s Names";
 	cout << "and Their Associated Race Time.";
 	cout << "Program Developed by : Elijah alston jr";
 	cout << "*****************************************************************";
