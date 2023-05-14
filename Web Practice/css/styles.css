@@ -24,9 +24,30 @@ body{
 
 .index-maindiv{
 
-    height: 2500px;
-    width: 1500px;
-    margin: auto;
+    height: 500px;
+    width: 500px;
+    margin: 200px auto auto auto;
     background-color: rgb(27, 33, 105);
     box-shadow: #ccc;
+    
 }
+
+.index-maindiv:hover{
+
+    animation-name: ipoop;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+
+
+
+}
+
+
+
+
+@keyframes ipoop {
+    from {background-color: rgb(27, 33, 105);}
+    to {background-color: yellow;}
+    
+  }
